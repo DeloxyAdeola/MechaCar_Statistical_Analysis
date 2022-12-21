@@ -1,6 +1,10 @@
 # MechaCar_Statistical_Analysis
 This project is basically to use  R to analyze MechaCar data of which the team interest is how different variable afftects the MPG of the Mechacar prototype which will be acheived by  identify key metrics and trends that will help the manufacturing team make decisions about the production process. Variables like vehicle length, weight, spoiler angle, AWD and ground clearance with MPG as (miles per gallon) which are in the Mecachar dataset.will help us achieve this.
+
+
 liNEAR REGRESSION TO PREDICT MPG
+
+[alt text](image_url) syntax
 
 WHICH VARIABLE/COEFFICIENT PROVIDED A NON-RANDOM AMOUNT DATA OF VARIANCE TO THE MP VALUE IN THE  DATASET?
 
