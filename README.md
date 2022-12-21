@@ -8,9 +8,10 @@ liNEAR REGRESSION TO PREDICT MPG
 
 WHICH VARIABLE/COEFFICIENT PROVIDED A NON-RANDOM AMOUNT DATA OF VARIANCE TO THE MP VALUE IN THE  DATASET?
 
-Two variables in this dataset provide a non-random amount of variance: vehicle length and ground clearance. The p-value for each of these variables is less than 0.05, which indicates that they do provide some amount of corelation to the mpg values in the dataset. The p-value of vehicle weight, spoiler angle, and AWD are significantly further from 0.05, which indicates that they do not provide a corelation to the mpg values in the dataset.
+There are two variable in the dataset which provide  a non-random amount of variance: vehicle length and ground clearance. The p-value for each of these variables is less than 0.05, which indicates that they do provide some amount of corelation to the mpg values in the dataset. The p-value of vehicle weight, spoiler angle, and AWD are significantly further from 0.05, which indicates that they do not provide a corelation to the mpg values in the dataset.
 
 Is the slope of the linear model considered to be zero? Why or why not?
+
 The p-value of the linear model is 5.35e-11, which is significantly less than 0.05. This indicates that the slope of the linear model is not zero. This means that the linear model does provide corelation to the mpg values in the dataset.
 
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
