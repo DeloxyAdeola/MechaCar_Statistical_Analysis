@@ -18,3 +18,23 @@ Does the current manufacturing data meet the design specification that the varia
 The variance of the suspension coils in all manufacturing lots is 62.29, which does not exceed the required specification. However, breaking the summary statistics down by lot shows that lots 1 and 2 have significantly lower variances than the whole, but lot 3 has a variance of 170.29, which is significantly higher than the required specification. This indicates that the current manufacturing data does not meet the design specification for lot 3.
 
 T-Tests on Suspension Coils
+
+Performing a t-test to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1500 returns a p-value of 0.06, which is higher than 0.05 and indicates that the PSI across all manufacturing lots is statistically different from the population mean of 1500. However, this is not a largely significant difference as the t-test estimates a mean of 1498.78.
+
+Similar to the summary statistics on each lot, performing a test on each individual lot reveals their substantial differences. While lot 1 shares the populations mean of 1500, and lot 2 has a difference of only 0.2, the mean of lot 3 is 1496.14, which is significantly different from the population mean of 1500.
+
+Study Design: MechaCar vs Competition
+Metrics to be tested
+When comparing the MechaCar to its competition, the most important independent metrics to test would be the resale value, annual maintenance cost, fuel efficiency, safety feature rating, and overall consumer rating. For this analysis, the dependent variable would be the cost of the vehicle.
+
+Null and Alternative Hypothesis
+Null: Hypothesis: The MechaCar is not statistically different from the competition in terms of resale value, annual maintenance cost, fuel efficiency, safety feature rating, and overall consumer rating. And these metrics have no corelation to the cost of the vehicle.
+
+Alternative: The MechaCar is statistically different from the competition in terms of cost, resale value, annual maintenance cost, fuel efficiency, safety feature rating, and overall consumer rating. And these metrics have a positive corelation to the cost of the vehicle.
+
+Statistical Test to be used
+A multiple linear regression test can be used to test the corelation between the independent variables and the dependent variable. This test will allow us to determine which independent variables have a positive corelation to the cost of the vehicle, and which independent variables have a negative corelation to the cost of the vehicle. This test will also allow us to determine if the MechaCar is statistically different from the competition in terms of cost, resale value, annual maintenance cost, fuel efficiency, safety feature rating, and overall consumer rating.
+
+Data to be used
+The data needed to preform this analysis would be the cost of the vehicle, its average resale value, its annual maintenance cost, its average miles per gallon, its safety feature rating and its overall consumer rating. Data from a significant number of competitors cars at similar price points would also be needed to preform this analysis.
+
