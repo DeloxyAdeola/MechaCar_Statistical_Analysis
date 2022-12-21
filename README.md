@@ -4,7 +4,7 @@ This project is basically to use  R to analyze MechaCar data of which the team i
 
 liNEAR REGRESSION TO PREDICT MPG
 
-[alt text]([image_url](https://github.com/DeloxyAdeola/MechaCar_Statistical_Analysis/blob/main/Fig%201.png)) syntax
+[alt text](https://github.com/DeloxyAdeola/MechaCar_Statistical_Analysis/blob/main/Fig%201.png)
 
 WHICH VARIABLE/COEFFICIENT PROVIDED A NON-RANDOM AMOUNT DATA OF VARIANCE TO THE MP VALUE IN THE  DATASET?
 
