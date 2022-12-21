@@ -1,8 +1,9 @@
 # MechaCar_Statistical_Analysis
+This project is basically to use  R to analyze MechaCar data of which the team interest is how different variable afftects the MPG of the Mechacar prototype which will be acheived by  identify key metrics and trends that will help the manufacturing team make decisions about the production process. Variables like vehicle length, weight, spoiler angle, AWD and ground clearance with MPG as (miles per gallon) which are in the Mecachar dataset.will help us achieve this.
+liNEAR REGRESSION TO PREDICT MPG
 
-The purpose of this project is to use R to analyze MechaCar data to identify key metrics and trends that will help the manufacturing team make decisions about the production process. The data set contains information about the MechaCar prototypes, including vehicle length, weight, spoiler angle, drivetrain, and ground clearance. The data set also contains information about the miles per gallon (MPG) of each prototype. The MechaCar team is interested in understanding how the different variables affect the MPG of the MechaCar prototypes.
+WHICH VARIABLE/COEFFICIENT PROVIDED A NON-RANDOM AMOUNT DATA OF VARIANCE TO THE MP VALUE IN THE  DATASET?
 
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 Two variables in this dataset provide a non-random amount of variance: vehicle length and ground clearance. The p-value for each of these variables is less than 0.05, which indicates that they do provide some amount of corelation to the mpg values in the dataset. The p-value of vehicle weight, spoiler angle, and AWD are significantly further from 0.05, which indicates that they do not provide a corelation to the mpg values in the dataset.
 
 Is the slope of the linear model considered to be zero? Why or why not?
