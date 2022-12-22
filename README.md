@@ -34,6 +34,8 @@ The variance of the suspension coils in all manufacturing lots is 62.29, which d
 
 T-Tests on Suspension Coils
 
+[fig 4 of 7](https://github.com/DeloxyAdeola/MechaCar_Statistical_Analysis/blob/main/figs/fig%202.png)
+
 Performing a t-test to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1500 returns a p-value of 0.06, which is higher than 0.05 and indicates that the PSI across all manufacturing lots is statistically different from the population mean of 1500. However, this is not a largely significant difference as the t-test estimates a mean of 1498.78.
 
 Similar to the summary statistics on each lot, performing a test on each individual lot reveals their substantial differences. While lot 1 shares the populations mean of 1500, and lot 2 has a difference of only 0.2, the mean of lot 3 is 1496.14, which is significantly different from the population mean of 1500.
