@@ -36,7 +36,7 @@ T-Tests on Suspension Coils
 
 [fig 4 of 7](https://github.com/DeloxyAdeola/MechaCar_Statistical_Analysis/blob/main/figs/fig%204.png))
 
-Performing a t-test to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1500 returns a p-value of 0.06, which is higher than 0.05 and indicates that the PSI across all manufacturing lots is statistically different from the population mean of 1500. However, this is not a largely significant difference as the t-test estimates a mean of 1498.78.
+A  t-test was ran to  determine if the PSI across all manufacturing lots is statistically different from the population mean of 1500. The  p-value returned is 0.06, which is higher than 0.05 and indicates that the PSI across all manufacturing lots is statistically different from the population mean of 1500 and 1498.78 as mean. However, This is an alternate hypothesis.
 
 
 [fig 5 of 7](https://github.com/DeloxyAdeola/MechaCar_Statistical_Analysis/blob/main/figs/fig%205.png)
@@ -46,20 +46,21 @@ Performing a t-test to determine if the PSI across all manufacturing lots is sta
 [fig 7 of 7](https://github.com/DeloxyAdeola/MechaCar_Statistical_Analysis/blob/main/figs/fig%207.png))
 
 
-Similar to the summary statistics on each lot, performing a test on each individual lot reveals their substantial differences. While lot 1 shares the populations mean of 1500, and lot 2 has a difference of only 0.2, the mean of lot 3 is 1496.14, which is significantly different from the population mean of 1500.
+Similar to the summary statistics on each lot, As shown on the attached images, we performed a test on each individual lot reveals their substa differences. While lot 1 shares the populations mean of 1500, and lot 2 has a difference of only 0.2, the mean of lot 3 is 1496.14, which is significantly different from the population mean of 1500.
 
 Study Design: MechaCar vs Competition
+
 Metrics to be tested
 When comparing the MechaCar to its competition, the most important independent metrics to test would be the resale value, annual maintenance cost, fuel efficiency, safety feature rating, and overall consumer rating. For this analysis, the dependent variable would be the cost of the vehicle.
 
 Null and Alternative Hypothesis
-Null: Hypothesis: The MechaCar is not statistically different from the competition in terms of resale value, annual maintenance cost, fuel efficiency, safety feature rating, and overall consumer rating. And these metrics have no corelation to the cost of the vehicle.
+Null Hypothesis: The MechaCar is not different from the competition in terms of resale value, annual maintenance cost, fuel efficiency, safety feature rating, and overall consumer rating. And these metrics have no corelation to the cost of the vehicle.
 
-Alternative: The MechaCar is statistically different from the competition in terms of cost, resale value, annual maintenance cost, fuel efficiency, safety feature rating, and overall consumer rating. And these metrics have a positive corelation to the cost of the vehicle.
+Alternative Hypothesis: The MechaCar is different from the competition in terms of cost, resale value, annual maintenance cost, fuel efficiency, safety feature rating, and overall consumer rating of which they  have a positive corelation to the cost of the vehicle.
 
 Statistical Test to be used
 A multiple linear regression test can be used to test the corelation between the independent variables and the dependent variable. This test will allow us to determine which independent variables have a positive corelation to the cost of the vehicle, and which independent variables have a negative corelation to the cost of the vehicle. This test will also allow us to determine if the MechaCar is statistically different from the competition in terms of cost, resale value, annual maintenance cost, fuel efficiency, safety feature rating, and overall consumer rating.
 
 Data to be used
-The data needed to preform this analysis would be the cost of the vehicle, its average resale value, its annual maintenance cost, its average miles per gallon, its safety feature rating and its overall consumer rating. Data from a significant number of competitors cars at similar price points would also be needed to preform this analysis.
+The data needed to preform this analysis would be the cost of the vehicle, resused value, its annual maintenance cost/how often maintenance is done, its average miles per gallon (MPG). its safety feature rating and its overall consumer rating. Also analyzing Data from potential competitors with similar types and value will help in having accurate analysis.
 
