@@ -13,7 +13,7 @@ There are two variable in the dataset which provide  a non-random amount of vari
  The p-value for each of these variables is less than 0.05, which indicates that they do provide some amount of corelation to the mpg values in the dataset. 
 
 Is the slope of the linear model considered to be zero? Why or why not?
-
+There's no correlation on the linear model is not zero.This means that 
 The p-value of the linear model is 5.35e-11, which is significantly less than 0.05. This indicates that the slope of the linear model is not zero. This means that the linear model does provide corelation to the mpg values in the dataset.
 
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
@@ -23,6 +23,7 @@ Summary Statistics on Suspension Coils
 Figure 2 Figure 3
 
 Does the current manufacturing data meet the design specification that the variance of the suspension coils must not exceed 100 pounds per square inch in all manufacturing lots in total and each lot individually? Why or why not?
+
 The variance of the suspension coils in all manufacturing lots is 62.29, which does not exceed the required specification. However, breaking the summary statistics down by lot shows that lots 1 and 2 have significantly lower variances than the whole, but lot 3 has a variance of 170.29, which is significantly higher than the required specification. This indicates that the current manufacturing data does not meet the design specification for lot 3.
 
 T-Tests on Suspension Coils
