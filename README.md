@@ -3,7 +3,7 @@ This project is basically to use  R to analyze MechaCar data of which the team i
 
 
 liNEAR REGRESSION TO PREDICT MPG
-Fi
+
 
 [fig 1 of 7](https://github.com/DeloxyAdeola/MechaCar_Statistical_Analysis/blob/main/Fig%201.png)
 
