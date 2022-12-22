@@ -25,7 +25,8 @@ This linear model predicts the mpg of MechCar prototypes relatively effectively.
 Summary Statistics on Suspension Coils
 
 [fig 2 of 7](https://github.com/DeloxyAdeola/MechaCar_Statistical_Analysis/blob/main/figs/fig%202.png)
-[fig 3 of 7](https://github.com/DeloxyAdeola/MechaCar_Statistical_Analysis/blob/main/figs/fig%202.png)
+
+[fig 3 of 7](https://github.com/DeloxyAdeola/MechaCar_Statistical_Analysis/blob/main/figs/fig%203.png)
 
 Does the current manufacturing data meet the design specification that the variance of the suspension coils must not exceed 100 pounds per square inch in all manufacturing lots in total and each lot individually? Why or why not?
 
